@@ -1,0 +1,26 @@
+.container {
+  width: 1098px;
+  margin: 60px auto;
+}
+.container a:hover {
+  color:#6155a6;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
